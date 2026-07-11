@@ -9,3 +9,5 @@ Thumbs.db
 
 # Plugin cache
 .plugin_cache/
+
+__pycache__/

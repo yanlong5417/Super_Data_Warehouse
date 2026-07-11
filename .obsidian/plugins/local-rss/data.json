@@ -1,24 +1,17 @@
-﻿{
-  "feeds": [
-    {
-      "url": "https://www.ruanyifeng.com/blog/atom.xml",
-      "name": "阮一峰的网络日志"
-    },
-    {
-      "url": "https://sspai.com/feed",
-      "name": "少数派"
-    },
-    {
-      "url": "https://36kr.com/feed",
-      "name": "36氪"
-    },
-    {
-      "url": "https://www.infoq.cn/feed",
-      "name": "InfoQ"
-    }
-  ],
-  "folder": "000-收件箱",
-  "updateInterval": 240,
-  "createByDate": true,
-  "dateFormat": "YYYY-MM-DD"
+{
+  "feeds": [],
+  "folderPath": "RSS",
+  "template": "---\ntitle: {{title}}\nlink: {{link}}\nauthor: {{author}}\npublish_date: {{publishedTime}}\nsaved_date: {{savedTime}}\nimage: {{image}}\ntags: {{#tags}}\n---\n\n![image]({{image}})\n\n{{content}}",
+  "fileNameTemplate": "{{title}}",
+  "updateInterval": 60,
+  "lastUpdateTime": 1783781551787,
+  "includeImages": true,
+  "fetchImageFromLink": false,
+  "dateFormat": "YYYY-MM-DD HH:mm:ss",
+  "imageWidth": "50%",
+  "autoDeleteEnabled": false,
+  "autoDeleteDays": 30,
+  "autoDeleteTimeUnit": "days",
+  "autoDeleteBasedOn": "saved",
+  "downloadHistory": []
 }
