@@ -1,0 +1,14 @@
+﻿{
+  "autoCommitInterval": 15,
+  "autoPushInterval": 15,
+  "autoPullInterval": 15,
+  "autoCommitMessage": "vault backup: {{date}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 15,
+  "autoPullOnBoot": true,
+  "disablePopups": false,
+  "syncMethod": "merge",
+  "customUrlOnPush": "",
+  "customUrlOnPull": "",
+  "currentBranch": "main"
+}
