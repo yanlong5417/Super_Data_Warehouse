@@ -1,0 +1,11 @@
+﻿# Obsidian workspace state (personal, not repo)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/**
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Plugin cache
+.plugin_cache/
