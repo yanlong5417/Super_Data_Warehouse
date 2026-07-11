@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 每日早报生成器
@@ -31,7 +31,7 @@ WEEKDAYS_CN = {
 def get_weather(city=None):
     """从 wttr.in 获取天气"""
     if city is None:
-        city = "上海"
+        city = "杭州"
     try:
         url = f"https://wttr.in/{urllib.parse.quote(city)}?format=j1"
         req = urllib.request.Request(url, headers={
@@ -137,3 +137,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
