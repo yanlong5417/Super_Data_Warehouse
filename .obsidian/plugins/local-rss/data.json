@@ -1,17 +1,28 @@
-{
-  "feeds": [],
-  "folderPath": "RSS",
-  "template": "---\ntitle: {{title}}\nlink: {{link}}\nauthor: {{author}}\npublish_date: {{publishedTime}}\nsaved_date: {{savedTime}}\nimage: {{image}}\ntags: {{#tags}}\n---\n\n![image]({{image}})\n\n{{content}}",
-  "fileNameTemplate": "{{title}}",
-  "updateInterval": 60,
-  "lastUpdateTime": 1783781551787,
-  "includeImages": true,
-  "fetchImageFromLink": false,
-  "dateFormat": "YYYY-MM-DD HH:mm:ss",
-  "imageWidth": "50%",
-  "autoDeleteEnabled": false,
-  "autoDeleteDays": 30,
-  "autoDeleteTimeUnit": "days",
-  "autoDeleteBasedOn": "saved",
-  "downloadHistory": []
+﻿{
+    "feeds":  [
+                  {
+                      "name":  "机器之心 (AI资讯)",
+                      "url":  "https://jiqizhixin.com/rss"
+                  },
+                  {
+                      "name":  "量子位 (AI科技)",
+                      "url":  "https://www.qbitai.com/feed"
+                  }
+              ],
+    "folderPath":  "RSS",
+    "template":  "---\ntitle: {{title}}\nlink: {{link}}\nauthor: {{author}}\npublish_date: {{publishedTime}}\nsaved_date: {{savedTime}}\nimage: {{image}}\ntags: {{#tags}}\n---\n\n![image]({{image}})\n\n{{content}}",
+    "fileNameTemplate":  "{{title}}",
+    "updateInterval":  60,
+    "lastUpdateTime":  1783820056949,
+    "includeImages":  true,
+    "fetchImageFromLink":  false,
+    "dateFormat":  "YYYY-MM-DD HH:mm:ss",
+    "imageWidth":  "50%",
+    "autoDeleteEnabled":  false,
+    "autoDeleteDays":  30,
+    "autoDeleteTimeUnit":  "days",
+    "autoDeleteBasedOn":  "saved",
+    "downloadHistory":  [
+
+                        ]
 }
